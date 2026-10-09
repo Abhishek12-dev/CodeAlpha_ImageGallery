@@ -2,6 +2,9 @@
 
 A modern and responsive Image Gallery built with HTML, CSS, and JavaScript. This project provides an interactive and visually appealing way to browse images with smooth animations and user-friendly navigation.
 
+layout of my Image Gallery
+![]()
+
 Features
 
 1. Responsive Layout: Adapts to desktop, tablet, and mobile screens.
