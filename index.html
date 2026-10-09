@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>image gallery</title>
+</head>
+
+<body>
+    <div class="gallery-wrap">
+        <button type="button" id="backBtn" aria-label="Previous images">
+            <img src="back.png" alt="">
+        </button>
+        <div class="gallery">
+            <div>
+                <img src="image1.jpg" alt="">
+                <img src="image2.jpg" alt="">
+                <img src="image3.jpg" alt="">
+            </div>
+            <div>
+                <img src="image4.png" alt="">
+                <img src="image5.webp" alt="">
+                <img src="image6.jpeg" alt="">
+            </div>
+        </div>
+        <button type="button" id="nextBtn" aria-label="Next images">
+            <img src="next.png" alt="">
+        </button>
+    </div>
+
+    <div class="lightbox" id="lightbox" hidden>
+        <div class="lightbox-background" id="lightboxBackground"></div>
+        <button type="button" id="closeLightbox" class="lightbox-close" aria-label="Close image">&times;</button>
+        <button type="button" id="lightboxBack" class="lightbox-nav" aria-label="Previous image">&lsaquo;</button>
+        <img id="lightboxImage" src="" alt="Enlarged gallery image">
+        <button type="button" id="lightboxNext" class="lightbox-nav" aria-label="Next image">&rsaquo;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
