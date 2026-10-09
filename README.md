@@ -3,7 +3,7 @@
 A modern and responsive Image Gallery built with HTML, CSS, and JavaScript. This project provides an interactive and visually appealing way to browse images with smooth animations and user-friendly navigation.
 
 layout of my Image Gallery
-![]()
+![Screenshot 2026-10-09 132243](https://github.com/Abhishek12-dev/CodeAlpha_ImageGallery/blob/main/images/Screenshot%202026-10-09%20132243.png?raw=true)
 
 Features
 
